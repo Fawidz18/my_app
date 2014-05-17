@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<table >
+	<tr>
+		<td BGCOLOR="00ffff">
+			<h1>Header</h1>
+		</td>		
+	</tr>
+	<tr>
+		<td BGCOLOR="#ff00ff">
+			<h2>Body</h2>	
+		</td>
+	</tr>
+</table>
+
+<%= yield %>
+
+</body>
+</html>
